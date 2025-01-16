@@ -1,0 +1,17 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.dashboard {
+  width: 100%;
+  max-width: 100px; 
+}
+
+.dashboard > * {
+  width: 100%; 
+}
